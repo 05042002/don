@@ -42,7 +42,7 @@
                       </ul>
                     </div>
                     <h1>We Provide    <span class="change_content"></span></h1>
-                    <a href="login.php" class="button1"target="_blank">   Quiz   </a>
+                    <a href="#" class="button1"target="_blank">   Quiz   </a>
                     <a href="cources.html" class="button2"target="_blank">     Courses     </a>
 
                 </section>
@@ -80,17 +80,6 @@
               <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
               <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_DMgKk1.json" mode="bounce" background="transparent"  speed="2"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
               <a href="select.html" ><button class="btn">Library</button></a>
-  
-  
-            </div>
-  
-          </article>
-
-          <article>
-            <div class="cat">
-              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-              <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_oojuetow.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-              <a href="https://www.doubtnut.com/"><button class="btn">Ask Doubt</button></a>
   
   
             </div>
@@ -183,34 +172,6 @@
 
 
     </section>
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     <class class="counter">
     <div id="sfcs24bf321t11paksy9r4w9mkn9l26ywzr"></div>
 <script type="text/javascript" src="https://counter7.stat.ovh/private/counter.js?c=s24bf321t11paksy9r4w9mkn9l26ywzr&down=async" async></script>
@@ -233,7 +194,7 @@
             <div class="lower">
               <div class="topic">Contact us</div>
               <div class="phone">
-                <a href="#"><i class="fas fa-phone-volume"></i>8779190379</a>
+                <a href="#"><i class="fas fa-phone-volume"></i>8828499486</a>
               </div>
               <div class="email">
                 <a href="#"><i class="fas fa-envelope"></i>BrainMentors@gmail.com</a>
@@ -262,7 +223,7 @@
           </div>
         </div>
         <div class="bottom">
-          <p>Copyright © 2022 <a href="#">Brain Mentors</a> All rights reserved</p>
+          <p>Copyright © 2021 <a href="#">Brain Mentors</a> All rights reserved</p>
         </div>
       </footer> 
     

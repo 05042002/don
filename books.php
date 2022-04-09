@@ -1,3 +1,22 @@
+<?php 
+include 'db.php';
+$query = "SELECT * FROM questions";
+$total_questions = mysqli_num_rows(mysqli_query($connection,$query));
+?>
+<?php
+session_start();
+
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
+  $msg = "You need to login first";
+  echo '<script language="javascript">';
+  echo 'alert("'.$msg.'");';
+  echo 'window.location="http://localhost/quiz5/login.php";';
+  echo '</script>';
+  //  header("location: login.php");
+    exit;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,14 +35,18 @@
     <style></style>
     
 </head>
-<body>
+<body onload="load()">
+<div id="loading">
+
+</div>
     <header>
     <nav>
         <div class="logo"><h1 class="animate__animated animate__heartBeat animate__infinite	infinite " style="font-size: 30px;">Brain Mentors</h1></div>
             <div class="menu">
-                <a href="index.html" class=button>Home</a>
-                <a href="#"class=button>About</a>
-                <a href="#"class=button>Login</a>
+                <a href="index.php" class=button>Home</a>
+                <a href="main.php"class=button>Quiz</a>
+                <a href="cources.php"  class="button" >Courses</a>
+                <a href="logout.php"class=button>Logout</a>
 
             </div>
     </nav>
@@ -34,30 +57,19 @@
               
               <article>
                 <div class="cata">
-                 <a href="img/JEE Physics - DB Singh.pdf"><img src="img/gravity.webp" height="300px" width="300px"></a>
-                  <br><br>
-                 <center>
-                  <button class="btn">Gravitation</button>
-                 </center>
-                 
+                  <a href="img\01-area-under-the-curve.pdf"><img src="img\rdbaba-removebg-preview.png" height="300px" width="300px"></a>
+      
+      
                 </div>
       
               </article>
               <article><div class="cata">
                 <a href="img/pdfcoffee.com_h-c-v-pdf-free.pdf">
-                  <img src="img/circular.webp" height="300px" width="300px"></a>
-                  <br><br>
-                 <center>
-                  <button class="btn">Circular Motion</button>
-                 </center>
+                  <img src="img\hc verma.png" height="300px" width="300px"></a>
                 </div></article>
               
               <article><div class="cata">
-               <a href="img\basic-maths2.pdf"><img src="img\magnetic.webp" height="300px" width="300px"></a>
-               <br><br>
-                 <center>
-                  <button class="btn">Magnetic Field</button>
-                 </center>
+               <a href="img\basic-maths2.pdf"><img src="img\calculus.png" height="300px" width="300px"></a>
                 </div></article>
             </div>
                               
@@ -70,30 +82,19 @@
               
             <article>
               <div class="cata">
-                <a href="img\01-area-under-the-curve.pdf"><img src="img\modern.jfif" height="300px" width="300px"></a>
-                <br><br>
-                <center>
-                 <button class="btn">Modern Physics</button>
-                </center>
+                <a href="img\01-area-under-the-curve.pdf"><img src="img\fit jee module.png" height="300px" width="300px"></a>
+    
     
               </div>
     
             </article>
             <article><div class="cata">
               <a href="img/pdfcoffee.com_h-c-v-pdf-free.pdf">
-                <img src="img\motion.jpg" height="300px" width="300px"></a>
-                <br><br>
-                 <center>
-                  <button class="btn">Laws of Motion</button>
-                 </center>
+                <img src="img\books-removebg-preview.png" height="300px" width="300px"></a>
               </div></article>
             
             <article><div class="cata">
-             <a href="img\01-area-under-the-curve.pdf"><img src="img\electric.png" height="300px" width="300px"></a>
-             <br><br>
-                 <center>
-                  <button class="btn">Current Electricity</button>
-                 </center>
+             <a href="img\01-area-under-the-curve.pdf"><img src="img\allen module.png" height="300px" width="300px"></a>
               </div></article>
           </div>
                             
@@ -106,6 +107,11 @@
             
         
       
-    
+        <script>
+     var preloader= document.getElementById('loading');
+     function load(){
+       preloader.style.display='none';
+     }
+      </script> 
 </body>
 </html>
