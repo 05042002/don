@@ -21,9 +21,9 @@
             <div class="logo"><h1 class="animate__animated animate__heartBeat animate__infinite	infinite " style="font-size: 30px;">Brain Mentors</h1></div>
             <div class="menu">
                 <a href="index.html" class=button >Home</a>
-                <a href="books.html"class=button target="_blank">Books</a>
-                <a href="#about"class=button target="_blank">About</a>
-                <a href="login.php"class=button target="_blank">Login</a>
+                <a href="select.html"class=button>Books</a>
+                <a href="#about"class=button>About</a>
+                <a href="login.php"class=button >Login</a>
 
             </div>
         </nav>
@@ -42,8 +42,8 @@
                       </ul>
                     </div>
                     <h1>We Provide    <span class="change_content"></span></h1>
-                    <a href="#" class="button1"target="_blank">   Quiz   </a>
-                    <a href="cources.html" class="button2"target="_blank">     Courses     </a>
+                    <a href="login.php" class="button1">   Quiz   </a>
+                    <a href="cources.html" class="button2">     Courses     </a>
 
                 </section>
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -61,7 +61,7 @@
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_zxadsdst.json" 
             background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-            <a href="cource.html"><button class="btn">Recorded lecture</button></a>
+            <a href="select4.html"><button class="btn">Recorded lecture</button></a>
 
 
           </div>
@@ -71,7 +71,11 @@
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
           <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_ketv1eqz.json"
           background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
-          <a href="" ><button class="btn">Mock Test</button></a>
+          <a href="login.php" ><button class="btn">Mock T
+            
+          
+          
+          est</button></a>
         </div></article>
 
         
@@ -80,6 +84,17 @@
               <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
               <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_DMgKk1.json" mode="bounce" background="transparent"  speed="2"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
               <a href="select.html" ><button class="btn">Library</button></a>
+  
+  
+            </div>
+  
+          </article>
+
+          <article>
+            <div class="cat">
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+              <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_oojuetow.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+              <a href="https://www.doubtnut.com/"><button class="btn">Ask Doubt</button></a>
   
   
             </div>
@@ -110,7 +125,7 @@
                         content got well covered and also demonstrated the concept very well. Thanks for such an informative and concept-clearing 
                         training session"
                       </p>
-                    <a href="https://www.instagram.com/ysabhishekmishra/?utm_medium=copy_link"><button>Contact</button></a>
+                    <a href="https://www.linkedin.com/in/sunil-gupta-bba094223"><button>Contact</button></a>
     
             </div>
           </article>
@@ -127,7 +142,7 @@
                           wonderful and Thanks for sharing recording for future study"
 
                         </p>
-                    <a href="https://instagram.com/whonandita?utm_medium=copy_link"><button >contact</button></a>
+                    <a href="https://www.linkedin.com/in/atul-pal-457292208"><button >contact</button></a>
     
             </div>
           </article>
@@ -141,8 +156,7 @@
                       <p class="pc">"Very supportive staff and their knowledge is god level. Very easy to understand & the video provided
                           after the every sessions is very helpful. Completely based on practical knowledge which makes it easy to understand"
                       </p>
-                    <button>contact</button>
-    
+                      <a href="https://www.linkedin.com/in/iamankitm"><button >contact</button></a>
             </div>
             
           </article>
@@ -157,14 +171,10 @@
                         content got well covered and also demonstrated the concept very well. Thanks for such an informative and concept-clearing 
                         training session"
                       </p>
-                    <a href="https://www.instagram.com/ysabhishekmishra/?utm_medium=copy_link"><button>Contact</button></a>
+                    <a href="https://instagram.com/mr.proton2?igshid=YmMyMTA2M2Y="><button>Contact</button></a>
     
             </div>
           </article>
-                
-    
-    
-    
         </main>
         
       
@@ -172,13 +182,20 @@
 
 
     </section>
-    <class class="counter">
+
+    
+    <!-- <class class="counter">
     <div id="sfcs24bf321t11paksy9r4w9mkn9l26ywzr"></div>
 <script type="text/javascript" src="https://counter7.stat.ovh/private/counter.js?c=s24bf321t11paksy9r4w9mkn9l26ywzr&down=async" async></script>
 <noscript><a href="https://www.freecounterstat.com" title="website counter"><img src="https://counter7.stat.ovh/private/freecounterstat
   .php?c=s24bf321t11paksy9r4w9mkn9l26ywzr" border="0" title="website counter" alt="website counter"></a></noscript>
-  </class>
-
+  </class> -->
+  <class class="counter">
+  <div id="sfcs24bf321t11paksy9r4w9mkn9l26ywzr"></div>
+  <script type="text/javascript" src="https://counter9.stat.ovh/private/counter.js?c=w1a65n1h3cu8j7ukka7j4ffjxmp7wdwq&down=async" async></script>
+  <noscript><a href="https://www.freecounterstat.com" title="free hit counter"><img src="https://counter9.stat.ovh/private/freecounterstat
+  .php?c=w1a65n1h3cu8j7ukka7j4ffjxmp7wdwq" border="0" title="free hit counter" alt="free hit counter"></a></noscript>
+</class>
 
 
 
@@ -194,7 +211,7 @@
             <div class="lower">
               <div class="topic">Contact us</div>
               <div class="phone">
-                <a href="#"><i class="fas fa-phone-volume"></i>8828499486</a>
+                <a href="#"><i class="fas fa-phone-volume"></i>8779190379</a>
               </div>
               <div class="email">
                 <a href="#"><i class="fas fa-envelope"></i>BrainMentors@gmail.com</a>
@@ -223,7 +240,7 @@
           </div>
         </div>
         <div class="bottom">
-          <p>Copyright © 2021 <a href="#">Brain Mentors</a> All rights reserved</p>
+          <p>Copyright © 2022 <a href="#">Brain Mentors</a> All rights reserved</p>
         </div>
       </footer> 
     

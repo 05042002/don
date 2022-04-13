@@ -68,25 +68,25 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
               <embed src="img\Blue Yellow Triangle Shapes Tutor Flyer.gif" Hidden="true"
                autostart="true" height="400px" width="300px"
                style="border-radius: 0px;padding-top: 20px;" >
-               <a href="https://rzp.io/l/iOjBHg4nQt"><button>Register</button>
+               <a href="https://rzp.io/l/QGcWjOE"><button>Register</button>
             </div>
           </article>
           <article>
             <div class="text">
-                <embed src="img\Green Pencils and Notebook Icons Tutor Flyer.gif" Hidden="true"
+              <embed src="img\Green Pencils and Notebook Icons Tutor Flyer.gif" Hidden="true"
                autostart="true" height="400px" width="300px"
                style="border-radius: 0px;padding-top: 20px;" >
-               <a href="https://rzp.io/l/iOjBHg4nQt"><button>Register</button>
+               <a href="https://rzp.io/l/QGcWjOE"><button>Register</button>
             </div>
                     
            
           </article>
           <article>
             <div class="text">
-                <embed src="img\Regal Blue Shapes Tutor Flyer.gif" Hidden="true"
+              <embed src="img\Regal Blue Shapes Tutor Flyer.gif" Hidden="true"
                autostart="true" height="400px" width="300px"
                style="border-radius: 0px; padding-top: 20px;" >
-               <a href="https://rzp.io/l/iOjBHg4nQt"><button>Register</button>
+               <a href="https://rzp.io/l/QGcWjOE"><button>Register</button>
        </div>
                     
            

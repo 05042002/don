@@ -60,8 +60,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="logo"><h1 class="animate__animated animate__heartBeat animate__infinite	infinite " style="font-size: 30px;">Brain Mentors</h1></div>
             <div class="menu" >
                 <a href="index.php" class="buttonc" >Home</a>
-                <a href="books.php" class="buttonc" >Books</a>
-                <a href="video.html" class="buttonc" >Lectures</a>
+                <a href="login.php" class="buttonc" >Books</a>
+                <a href="login.php" class="buttonc" >Lectures</a>
                 <a href="signup.php" class="buttonc" >SignUp</a>
                 
 

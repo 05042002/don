@@ -39,8 +39,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
             <div class="logo"><h1 class="animate__animated animate__heartBeat animate__infinite	infinite " style="font-size: 30px; ">Brain Mentors</h1></div>
             <div class="menu">
                 <a href="index.php" class="buttonc" >Home</a>
-                <a href="books.php"  class="buttonc" >Books</a>
-                <a href="cources.php"  class="buttonc" >Courses</a>
+                <a href="select.html"  class="buttonc" >Books</a>
+                <a href="select4.html"  class="buttonc" >Courses</a>
                 <a href="logout.php" class="buttonc" >Logout</a>
 
             </div>
